@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil | Portfolio Mahasiswa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <div class="logo"><span class="logo-icon">✦</span> MahasiswaDev</div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Beranda</a></li>
+            <li><a href="profil.html" class="nav-link active">Profil</a></li>
+            <li><a href="kontak.html" class="nav-link">Kontak</a></li>
+          </ul>
+          <button id="darkModeToggle" class="dark-toggle">Dark</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="profile-grid">
+          <!-- Kartu identitas -->
+          <div class="glass-card info-card">
+            <h2>Identitas Diri</h2>
+            <ul class="identity-list">
+              <li><span>Nama Lengkap</span> <strong>Layla Khairani</strong></li>
+              <li><span>NIM</span> <strong>2403015100</strong></li>
+              <li><span>Jurusan</span> <strong>Teknik Informatika</strong></li>
+              <li>
+                <span>Fakultas</span>
+                <strong>Teknologi Industri & Informatika</strong>
+              </li>
+            </ul>
+            <div class="hobby-goal">
+              <div class="hobby">
+                <h3>Hobi</h3>
+                <p>
+                  Coding side projects, desain UI, fotografi, dan bermain game
+                  strategi.
+                </p>
+              </div>
+              <div class="goal">
+                <h3>Cita-cita</h3>
+                <p>
+                  Menjadi Software Architect & membangun edutech platform yang
+                  terjangkau.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Deskripsi diri dengan fitur "Tampilkan Lebih Banyak" -->
+          <div class="glass-card description-card">
+            <h2>Tentang Saya</h2>
+            <div class="description-text">
+              <p id="shortDesc">
+                Saya adalah mahasiswa semester 6 yang sangat antusias di bidang
+                web development dan kecerdasan buatan. Saat ini saya aktif
+                sebagai asisten laboratorium web programming dan freelance web
+                developer. Saya suka mempelajari arsitektur frontend modern
+                serta prinsip desain yang human-centric.
+              </p>
+              <div id="extraDesc" class="extra-description hidden">
+                <p>
+                  Selain akademik, saya pernah menjadi finalis lomba UI/UX
+                  tingkat nasional dan berkontribusi pada open-source project.
+                  Saya percaya bahwa teknologi harus inklusif dan memberdayakan
+                  banyak orang. Target saya ke depan adalah mendalami cloud
+                  computing dan microservices, serta berkontribusi aktif di
+                  komunitas developer lokal.
+                </p>
+              </div>
+              <button id="readMoreBtn" class="btn-readmore">
+                Tampilkan Lebih Banyak
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tambahan skill bars (trend 2026) -->
+        <div class="skills-section glass-card">
+          <h3>Kemampuan Web Development</h3>
+          <div class="skill-item">
+            <span>HTML5 & Aksesibilitas</span>
+            <div class="skill-bar">
+              <div class="skill-level" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>CSS3 / Flex / Grid</span>
+            <div class="skill-bar">
+              <div class="skill-level" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>JavaScript (ES6+)</span>
+            <div class="skill-bar">
+              <div class="skill-level" style="width: 78%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>
+          © 2026 Layla Khairani | Dibangun dengan semangat belajar & teknologi
+          modern
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

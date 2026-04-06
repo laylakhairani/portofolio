@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Home | Portfolio Mahasiswa</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <!-- Google Fonts untuk tampilan modern -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <div class="logo"><span class="logo-icon">✦</span> MahasiswaDev</div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link active">Beranda</a></li>
+            <li><a href="profil.html" class="nav-link">Profil</a></li>
+            <li><a href="kontak.html" class="nav-link">Kontak</a></li>
+          </ul>
+          <button
+            id="darkModeToggle"
+            class="dark-toggle"
+            aria-label="Dark mode toggle"
+          >
+            🌙 Dark
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="hero glass-card">
+          <div class="hero-content">
+            <div class="profile-image-wrapper">
+              <img
+                src="https://randomuser.me/api/portraits/men/32.jpg"
+                alt="Foto Diri Mahasiswa"
+                class="profile-photo"
+              />
+              <div class="image-glow"></div>
+            </div>
+            <div class="hero-text">
+              <span class="badge">✨ Mahasiswa Aktif 2026</span>
+              <h1>Halo, Saya <span class="gradient-text">Rama Wijaya</span></h1>
+              <p>
+                Mahasiswa Teknik Informatika dengan semangat membangun solusi
+                digital kreatif. Saya percaya bahwa kode yang elegan bisa
+                mengubah dunia.
+              </p>
+              <div class="hero-buttons">
+                <a href="profil.html" class="btn-primary">Jelajahi Profil →</a>
+                <a href="kontak.html" class="btn-outline">Hubungi Saya</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="highlights">
+          <div class="card modern-card">
+            <div class="card-icon">🎓</div>
+            <h3>Akademik</h3>
+            <p>Semester 6, IPK 3.89, aktif di laboratorium web development.</p>
+          </div>
+          <div class="card modern-card">
+            <div class="card-icon">💡</div>
+            <h3>Minat & Cita</h3>
+            <p>
+              Menjadi full-stack developer & AI enthusiast, membangun startup
+              teknologi.
+            </p>
+          </div>
+          <div class="card modern-card">
+            <div class="card-icon">⚡</div>
+            <h3>Web Skills</h3>
+            <p>
+              HTML5, CSS3, JavaScript, React, Tailwind, dan desain responsif.
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>
+          © 2026 Rama Wijaya | Dibangun dengan semangat belajar & teknologi
+          modern
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
