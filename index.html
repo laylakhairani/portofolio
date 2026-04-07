@@ -2,95 +2,89 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-    />
-    <title>Home | Portfolio Mahasiswa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda | Layla Khairani</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-    <!-- Google Fonts untuk tampilan modern -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
+
     <header>
       <div class="container header-container">
-        <div class="logo"><span class="logo-icon">✦</span> My Portofolio</div>
+        <a href="index.html" class="logo">✦ Layla Khairani</a>
         <nav>
           <ul class="nav-links">
             <li><a href="index.html" class="nav-link active">Beranda</a></li>
             <li><a href="profil.html" class="nav-link">Profil</a></li>
             <li><a href="kontak.html" class="nav-link">Kontak</a></li>
           </ul>
-          <button
-            id="darkModeToggle"
-            class="dark-toggle"
-            aria-label="Dark mode toggle"
-          >
-            Dark
-          </button>
+          <button id="darkModeToggle" class="dark-toggle">🌙 Dark</button>
         </nav>
       </div>
     </header>
 
     <main>
       <div class="container">
-        <section class="hero glass-card">
-          <div class="hero-content">
-            <div class="profile-image-wrapper">
-              <img
-                src="Ranni.jpeg"
-                alt="Foto Diri Mahasiswa"
-                class="profile-photo"
-              />
-              <div class="image-glow"></div>
+
+        <section class="hero">
+          <div class="hero-bg-deco"></div>
+          <div class="hero-inner">
+
+            <div class="photo-frame animate animate-d1">
+              <img src="Ranni.jpeg" alt="Foto Layla Khairani" class="profile-photo" />
             </div>
+
             <div class="hero-text">
-              <span class="badge">Mahasiswa Aktif 2026</span>
-              <h1>
-                Halo, Saya <span class="gradient-text">Layla Khairani</span>
+              <div class="hero-eyebrow animate animate-d1">
+                <span>✦</span> Mahasiswi Aktif 2026
+              </div>
+              <h1 class="hero-title animate animate-d2">
+                Halo, Saya
+                <span class="grad-name">Layla Khairani</span>
               </h1>
-              <p>
-                Mahasiswa Teknik Informatika dengan semangat membangun solusi
-                digital kreatif. Saya percaya bahwa kode yang elegan bisa
-                mengubah dunia.
+              <p class="hero-desc animate animate-d3">
+                Mahasiswi Teknik Informatika semester 4 yang passionate di bidang
+                beauty, kreativitas, dan dunia digital. Percaya bahwa keindahan
+                dan teknologi bisa berjalan berdampingan. ✨
               </p>
-              <div class="hero-buttons">
+              <div class="hero-cta animate animate-d4">
                 <a href="profil.html" class="btn-primary">Jelajahi Profil →</a>
                 <a href="kontak.html" class="btn-outline">Hubungi Saya</a>
               </div>
             </div>
+
           </div>
         </section>
 
-        <section class="highlights">
-          <div class="card modern-card">
+        <section class="highlights animate animate-d5">
+          <div class="hi-card">
+            <span class="hi-card-icon">🎓</span>
             <h3>Akademik</h3>
-            <p>Semester 4, saat ini aktif dalam organisasi kampus.</p>
+            <p>Semester 4, Teknik Informatika — UHAMKA. Aktif dalam dua organisasi kampus sebagai pengurus inti.</p>
           </div>
-          <div class="card modern-card">
-            <div class="card-icon"></div>
-            <h3>Minat & Cita</h3>
-            <p>Menjadi Beauty Influencer & Beauty Entrepreneur</p>
+          <div class="hi-card">
+            <span class="hi-card-icon">💄</span>
+            <h3>Passion & Cita-cita</h3>
+            <p>Beauty Influencer, Content Creator, dan Beauty Entrepreneur — membangun personal brand yang kuat.</p>
           </div>
-          <div class="card modern-card">
-            <div class="card-icon"></div>
-            <h3>Web Skills</h3>
-            <p>
-              Microsoft Office, Canva, Sosial Media, dan Kemampuan Komunikasi
-            </p>
+          <div class="hi-card">
+            <span class="hi-card-icon">💻</span>
+            <h3>Keterampilan</h3>
+            <p>Canva, Microsoft Office, Social Media Management, Komunikasi, dan dasar-dasar Web Development.</p>
           </div>
         </section>
+
       </div>
     </main>
 
     <footer>
       <div class="container">
-        <p>© 2026 Layla Khairani | Semua hak dilindungi.</p>
+        <div class="footer-inner">
+          <span class="footer-name">Layla Khairani</span>
+          <p class="footer-copy">© 2026 · Semua hak dilindungi.</p>
+        </div>
       </div>
     </footer>
+
   </body>
 </html>
