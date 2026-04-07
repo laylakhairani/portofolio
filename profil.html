@@ -3,105 +3,173 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profil | Portfolio Mahasiswa</title>
+    <title>Profil | Layla Khairani</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap"
-      rel="stylesheet"
-    />
     <script src="script.js" defer></script>
   </head>
   <body>
+
     <header>
       <div class="container header-container">
-        <div class="logo"><span class="logo-icon">✦</span> My Portofolio</div>
+        <a href="index.html" class="logo">✦ Layla Khairani</a>
         <nav>
           <ul class="nav-links">
             <li><a href="index.html" class="nav-link">Beranda</a></li>
             <li><a href="profil.html" class="nav-link active">Profil</a></li>
             <li><a href="kontak.html" class="nav-link">Kontak</a></li>
           </ul>
-          <button id="darkModeToggle" class="dark-toggle">Dark</button>
+          <button id="darkModeToggle" class="dark-toggle">🌙 Dark</button>
         </nav>
       </div>
     </header>
 
     <main>
       <div class="container">
-        <div class="profile-grid">
-          <!-- Kartu identitas -->
-          <div class="glass-card info-card">
-            <h2>Identitas Diri</h2>
+
+        <div class="page-header animate animate-d1">
+          <h2 class="page-title">Tentang <span class="grad-name" style="display:inline; font-style:italic;">Layla</span></h2>
+          <p class="page-subtitle">Mengenal lebih dekat siapa saya 🌸</p>
+        </div>
+
+        <div class="profil-grid">
+
+          <!-- Kartu Identitas -->
+          <div class="glass-card animate animate-d2">
+            <h3 class="card-title">Identitas Diri</h3>
             <ul class="identity-list">
-              <li><span>Nama Lengkap</span> <strong>Layla Khairani</strong></li>
-              <li><span>NIM</span> <strong>2403015100</strong></li>
-              <li><span>Jurusan</span> <strong>Teknik Informatika</strong></li>
               <li>
-                <span>Fakultas</span>
-                <strong>Teknologi Industri & Informatika</strong>
+                <span class="label">Nama Lengkap</span>
+                <span class="val">Layla Khairani</span>
+              </li>
+              <li>
+                <span class="label">NIM</span>
+                <span class="val">2403015100</span>
+              </li>
+              <li>
+                <span class="label">Jurusan</span>
+                <span class="val">Teknik Informatika</span>
+              </li>
+              <li>
+                <span class="label">Fakultas</span>
+                <span class="val">Teknologi Industri & Informatika</span>
+              </li>
+              <li>
+                <span class="label">Semester</span>
+                <span class="val">4</span>
               </li>
             </ul>
-            <div class="hobby-goal">
-              <div class="hobby">
-                <h3>Hobi</h3>
-                <p>
-                  Makeup Enthusiast, Ice Skating, Memasak, dan Scrapbooking.
-                </p>
+
+            <div class="badges-section" style="margin-top:1.5rem;">
+              <h4>Hobi</h4>
+              <div class="badge-row">
+                <span class="badge-item">💄 Makeup</span>
+                <span class="badge-item">⛸️ Ice Skating</span>
+                <span class="badge-item">🍳 Memasak</span>
+                <span class="badge-item">📒 Scrapbooking</span>
               </div>
-              <div class="goal">
-                <h3>Cita-cita</h3>
-                <p>
-                  Beauty Influencer, Conten Creator, dan Beauty Entrepreneur.
-                </p>
+
+              <h4>Cita-cita</h4>
+              <div class="badge-row">
+                <span class="badge-item">📸 Beauty Influencer</span>
+                <span class="badge-item">🎬 Content Creator</span>
+                <span class="badge-item">💼 Beauty Entrepreneur</span>
               </div>
             </div>
           </div>
 
-          <!-- Deskripsi diri dengan fitur "Tampilkan Lebih Banyak" -->
-          <div class="glass-card description-card">
-            <h2>Tentang Saya</h2>
-            <div class="description-text">
-              <p id="shortDesc">
-                Saya adalah mahasiswa di bidang studi Teknik Informatika yang
-                saat ini sedang menjalankan semester 4. Saat ini saya aktif
-                sebagai Bendahara Umum dalam organisasi Himpunan Mahasiswa
-                Teknik Informatika dan Kepala Bidang Sosial Pemberdayaan
-                Masyarakat dalam organisasi Pimpinan Komisariat Ikatan Mahasiswa
-                Muhammadiyah.
+          <!-- Deskripsi Diri -->
+          <div class="glass-card animate animate-d3">
+            <h3 class="card-title">Tentang Saya</h3>
+
+            <p class="desc-short">
+              Saya adalah mahasiswi Teknik Informatika yang saat ini menjalankan
+              semester 4. Di balik layar kode dan desain, saya adalah seorang
+              beauty enthusiast yang percaya bahwa kreativitas adalah kunci untuk
+              berkembang di era digital.
+            </p>
+
+            <div class="desc-more" id="extraDesc">
+              <p style="margin-bottom: 1rem;">
+                Saat ini saya aktif sebagai <strong>Bendahara Umum</strong> di
+                Himpunan Mahasiswa Teknik Informatika dan
+                <strong>Kepala Bidang Sosial Pemberdayaan Masyarakat</strong>
+                di Pimpinan Komisariat Ikatan Mahasiswa Muhammadiyah.
+              </p>
+              <p>
+                Melalui kedua organisasi ini, saya belajar banyak tentang
+                kepemimpinan, manajemen keuangan, dan bagaimana teknologi bisa
+                digunakan untuk memberdayakan masyarakat. Ke depannya, saya
+                bermimpi untuk membangun bisnis beauty yang terintegrasi dengan
+                platform digital — menggabungkan passion dan keahlian saya
+                menjadi sesuatu yang bermakna. ✨
               </p>
             </div>
+
+            <button class="btn-readmore" id="readMoreBtn">
+              <span id="readMoreIcon">📖</span>
+              <span id="readMoreText">Tampilkan Lebih Banyak</span>
+            </button>
           </div>
+
         </div>
 
-        <!-- Tambahan skill bars (trend 2026) -->
-        <div class="skills-section glass-card">
-          <h3>Kemampuan Web Development</h3>
+        <!-- Skills -->
+        <div class="glass-card skills-section animate animate-d4">
+          <h3 class="card-title">Kemampuan</h3>
+
           <div class="skill-item">
-            <span>HTML5 & Aksesibilitas</span>
+            <div class="skill-header">
+              <span>HTML5 & Struktur Semantik</span>
+              <span class="skill-pct">90%</span>
+            </div>
             <div class="skill-bar">
-              <div class="skill-level" style="width: 90%"></div>
+              <div class="skill-fill" data-width="90"></div>
             </div>
           </div>
+
           <div class="skill-item">
-            <span>CSS3 / Flex / Grid</span>
+            <div class="skill-header">
+              <span>CSS3 & Desain Responsif</span>
+              <span class="skill-pct">85%</span>
+            </div>
             <div class="skill-bar">
-              <div class="skill-level" style="width: 85%"></div>
+              <div class="skill-fill" data-width="85"></div>
             </div>
           </div>
+
           <div class="skill-item">
-            <span>JavaScript (ES6+)</span>
+            <div class="skill-header">
+              <span>JavaScript (DOM & Events)</span>
+              <span class="skill-pct">75%</span>
+            </div>
             <div class="skill-bar">
-              <div class="skill-level" style="width: 78%"></div>
+              <div class="skill-fill" data-width="75"></div>
             </div>
           </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Canva & Desain Kreatif</span>
+              <span class="skill-pct">95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="95"></div>
+            </div>
+          </div>
+
         </div>
+
       </div>
     </main>
 
     <footer>
       <div class="container">
-        <p>© 2026 Layla Khairani | Semua hak dilindungi.</p>
+        <div class="footer-inner">
+          <span class="footer-name">Layla Khairani</span>
+          <p class="footer-copy">© 2026 · Semua hak dilindungi.</p>
+        </div>
       </div>
     </footer>
+
   </body>
 </html>
